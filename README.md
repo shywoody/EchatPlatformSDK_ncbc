@@ -1,0 +1,2 @@
+# EchatPlatformSDK_-bitcode
+不包含bitcode版本PlatformSDK
