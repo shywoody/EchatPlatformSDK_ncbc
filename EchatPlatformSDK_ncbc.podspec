@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "EchatPlatformSDK/ncbt"
-  spec.version      = "1.0"
+  spec.name         = "EchatPlatformSDK_ncbc"
+  spec.version      = "0.0.1"
   spec.summary      = "be happy,my friend"
 
   # This description is used to generate tags and improve search results.
