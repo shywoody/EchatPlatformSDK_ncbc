@@ -96,9 +96,15 @@
                           Success:(dispatch_block_t)success
                              fail:(void(^)(NSString * errorMessage))fail;
 
-/// 判断当前用户是否已经登陆会员
+
+/// 判断当前用户是否已经登陆会员(静态)
 /// @param uid 唯一Id
-/// @param callBack 系统登陆状态回调
++ (BOOL)echat_isLogin:(NSString *)uid;
+
+
+/// 判断当前用户是否已经登陆会员(动态)
+/// @param uid 唯一Id
+/// @param callBack 系统登陆状态回调(状态变动也会回调,一般不做判断依据)
 + (void)echat_isLogin:(NSString *)uid StatusCallback:(void(^)(BOOL flag,NSString * message))callBack;
 
 
