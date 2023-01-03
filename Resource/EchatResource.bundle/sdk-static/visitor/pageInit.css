@@ -1,2 +1,144 @@
-.bg0{background-color:#09a1d3;color:#ffffff}.bg1{background-color:#09a1d3;border-color:#09a1d3;color:#ffffff}.colorbg1{color:#09a1d3}.border0{border-color:#09a1d3}.color0{color:#09a1d3}.bg3{background-color:#e9e9e9;border-color:#e9e9e9;color:#4c4c4c}.colorbg3{color:#e9e9e9}.msg-info{background-color:#e9e9e9;color:#5d5d5d}.bc-angle1-white{border-color:#ffffff #ffffff transparent transparent}.bc-angle2-white{border-color:#ffffff transparent transparent #ffffff}.emcolor{color:#ffb545}.embgcolor{background-color:#ffb545}body .sub-selected{border:0.1rem solid #ffb545;background:#fff;color:#ffb545}.color1{color:#888}.hr-left{background:#f2f2f2}.hr-right{background:#f2f2f2}.border-t1{border-top-width:0.1rem;border-top-style:solid;border-top-color:#09a1d3}.bg2{background-color:#efefef;color:#333333}.bg4{background:#ececec}.bg5{background-color:#e1f0f5}.bg6{background-color:#ffffff;color:#333333}.msg-staff-name{color:#888888}.feedback-btn-solve{visibility:visible}.feedback-btn-unsolve{visibility:visible}.feedback-btn-solve-sel{visibility:visible}.feedback-btn-unsolve-sel{visibility:visible}.sub-solved-li{visibility:visible}.sub-unsolved-li{visibility:visible}.feedback-sub-sel1{visibility:visible}.feedback-sub-sel2{visibility:visible}.color11{color:#09a1d3}.color3{color:#ccc}
+/*js操作的样式直接嵌入html，避免异步访问错误、跨域错误 ,其他地方不得重复写*/
+/*主题色,logo广告栏 、*/
+.bg0 {
+    background-color: #09a1d3;
+    color: #ffffff;
+}
+/*访客发送信息 背景色*/
+.bg1 {
+    background-color: #09a1d3;
+    border-color:#09a1d3;
+    color: #ffffff;
+}
+.colorbg1{color: #09a1d3;}
+/*主题border色*/
+.border0{
+    border-color: #09a1d3 ;
+}
+/*尖角*/
+/* .border-color-angle1 {
+    border-color: #09a1d3 #09a1d3 transparent transparent;
+} */
+
+/*现在是主题文字色*/
+.color0 {
+    color: #09a1d3;
+}
+
+/*客服文字 背景色*/
+.bg3 {
+    background-color: #e9e9e9;
+    border-color:#e9e9e9;
+    color: #4c4c4c;
+}
+.colorbg3{color: #e9e9e9;}
+/* .border-color-angle2 {
+    border-color: #09a1d3 transparent transparent #09a1d3;
+} */
+
+.msg-info{
+    background-color:#e9e9e9;
+    color: #5d5d5d;
+
+}
+
+.bc-angle1-white{
+    border-color: #ffffff #ffffff transparent transparent;
+}
+.bc-angle2-white{
+    border-color: #ffffff transparent transparent #ffffff;
+}
+/*满意度主题色-文字颜色*/
+.emcolor {
+    color: #ffb545;
+}
+/*满意度主题色-背景颜色*/
+.embgcolor {
+    background-color: #ffb545;
+}
+body .sub-selected{
+    border:0.1rem solid #ffb545;
+    background: #fff;
+    color:#ffb545;
+}
+/*时间文字颜色*/
+.color1 {
+    color: #888;
+    
+}
+.hr-left{
+    background: #f2f2f2;}
+.hr-right{
+    background: #f2f2f2;
+}
+
+/*输入框与聊天记录间隔*/
+.border-t1 {
+    border-top-width: 0.1rem;
+    border-top-style: solid;
+    border-top-color:#09a1d3;
+}
+
+/*bg2输入文字  输入文字颜色,*/
+.bg2 {
+    background-color: #efefef;
+    color: #333333;
+}
+
+/*对话界面背景颜色*/
+.bg4 {
+    background: #ececec;
+}
+
+/*客服信息页背景颜色*/
+.bg5 {
+    background-color: #e1f0f5;
+}
+
+/*bg6客服信息颜色*/
+.bg6 {
+    background-color: #ffffff;
+    color: #333333;
+}
+.msg-staff-name{
+    color:#888888;
+}
+/*增加无用样式，避免空选择器被打包压缩时删掉*/
+/*机器人 已解决按钮*/
+.feedback-btn-solve{
+    visibility: visible;
+}
+.feedback-btn-unsolve{
+    visibility: visible;
+
+}.feedback-btn-solve-sel{
+    visibility: visible;
+
+ }
+.feedback-btn-unsolve-sel{
+    visibility: visible;
+
+}
+.sub-solved-li{
+    visibility: visible;
+}
+.sub-unsolved-li{
+    visibility: visible;
+}
+/*已解决*/
+.feedback-sub-sel1{
+    visibility: visible;
+}
+/*未解决*/
+.feedback-sub-sel2{
+    visibility: visible;
+}
+
+/*人工客服气泡角*/
+.color11{
+    color: #09a1d3;
+}
+.color3{
+    color:#ccc;
+}
 

@@ -49,3 +49,6 @@ FOUNDATION_EXPORT const unsigned char EchatPlatformSDKVersionString[];
 
 ///消息
 #import "Echat_MsgModel.h"
+
+//公司详情
+#import "EchatCompanyInfo.h"

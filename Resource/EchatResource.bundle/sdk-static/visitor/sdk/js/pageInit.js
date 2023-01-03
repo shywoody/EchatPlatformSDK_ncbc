@@ -11,7 +11,7 @@ function getQueryString(name) {
 }
 // 先创建一个对象，避免出错 todo  尽量删除
 window.lanRes = {};
-var lanResName = pickLan(getQueryString('lan'), getQueryString, true),
+var lanResName = getQueryString('lan'),//pickLan(getQueryString('lan'), getQueryString, true),
     path = pickLan(lanResName, getQueryString),
     cons;
 

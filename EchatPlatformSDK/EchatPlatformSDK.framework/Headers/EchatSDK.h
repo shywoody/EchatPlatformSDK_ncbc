@@ -164,6 +164,10 @@
 /// 全局语言设置
 /// @param lan (eg: @"zh", @"en") 需要在初始化SDK之前进行设置,默认为系统语言,对话中途修改语言会在下次对话生效
 + (void)echat_setLan:(NSString *)lan;
+
+
+/// 打开隐私权限（app上架所在国家或者区域会需要禁止相册权限可以开启隐私权限,同时需要最低支持iOS11）
++ (void)openHighPrivacy;
 #pragma mark -- 清理
 ///获取缓存大小
 + (double)getMemorySize;

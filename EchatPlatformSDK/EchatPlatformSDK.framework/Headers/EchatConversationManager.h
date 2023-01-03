@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Echat_MsgModel.h"
 #import "Echat_visEvtModel.h"
+#import "EchatCompanyInfo.h"
 
 typedef void(^UnReadMsgBlock)(Echat_MsgModel * _Nullable unReadMsg);
 
@@ -42,6 +43,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// 获取静态未读消息数（获取对应公司的未读消息数）
 /// @param companyId 公司id
 - (NSInteger)getUnreadCountWithCompanyId:(NSInteger)companyId;
+
+
+
+/// 获取对应公司的未读消息数 (通过网络请求)
+/// @param companyId 公司Id
+/// @param complete 完成回调( info 包含未读消息数和最后一条消息)
+/// @param fail 失败回调
++ (void)echat_gethttpUnreadCompanyId:(NSString *)companyId Complete:(void (^)(EchatCompanyInfo *info))complete fail:(void (^)(NSString *errorMsg))fail;
 
 
 /// 发送文本(多商户)

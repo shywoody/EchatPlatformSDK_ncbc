@@ -185,8 +185,8 @@ var lanRes = {
     visitor175: '预览',
     visitor176: '最多选择9个文件',
     visitor177: '选择文件超过最大限制,最多选择9个文件！',
-    visitor178: '可上传5个附件（每个附件大小不超过${uploadFileSize}M，附件支持格式有 ${filesTip}）',
-    visitor179: '最多选择5个文件',
+    visitor178: '可上传20个附件（每个附件大小不超过${uploadFileSize}M，附件支持格式有 ${filesTip}）',
+    visitor179: '最多选择20个文件',
     visitor180: '选择文件超过最大限制,最多选择5个文件！',
     visitor181: '上传失败',
     visitor182: '删除成功',
@@ -199,7 +199,21 @@ var lanRes = {
     visitor189: "上传附件",
     visitor190: "还有未上传完的附件，是否放弃并继续提交工单?",
     visitor191: "确认要删除此附件吗?",
-    visitor192: "发送失败，是否重发该消息？"
+    visitor192: "发送失败，是否重发该消息？",
+    visitor_doc: "办公文件",
+    visitor_audio: "音频文件",
+    visitor_video: "视频文件",
+    visitor_img: "图像文件",
+    visitor_compress: "压缩文件",
+    visitor_other: "其他文件",
+    visitor193: "按住&nbsp;&nbsp;说话",
+    visitor194: "松开&nbsp;&nbsp;结束",
+    visitor195: "手指上滑,取消发送",
+    visitor196: "松开手指,取消发送",
+    visitor197: "网络异常",
+    visitor198: "如您的问题未被解决,可进入",
+    visitor199: "客服忙",
+    visitor200: "禁止留言提示"
 };
 
 for (var i = 0; i < vv.length; i++) {
