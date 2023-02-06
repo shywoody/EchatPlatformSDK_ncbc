@@ -179,7 +179,7 @@ var lanRes = {
     "visitor175": "Previsualisar",
     "visitor176": "Seleccionar até 9 arquivos",
     "visitor177": "Selecção excede o limite máximo, Seleccionar até 0 arquivos!",
-    "visitor178": "É possível fazer upload de 20 anexos （Cada tamanho de anexo não excede ${uploadFileSize} M ， Os formatos de anexo suportados  são ${filesTip}）",
+    "visitor178": "É possível fazer upload de 20 anexos （Cada tamanho de anexo não excede ${uploadFileSize} M ）",
     "visitor179": "Seleccionar até 20 arquivos",
     "visitor180": "Selecção excede o limite máximo, Seleccionar até 5 arquivos!",
     "visitor181": "Envio falhou",
@@ -217,7 +217,30 @@ var lanRes = {
     staffInfo:'Informações de atendimento ao cliente',
     searchname: { placeholder: "pesquisar nome" },
     comfirmDelChat:'Tem certeza de que deseja excluir esta conversa?',
-    thisUnreadMsgNum:"Há ${num} mensagem não lida abaixo"
+    thisUnreadMsgNum:"Há ${num} mensagem não lida abaixo",
+    upload_error: "O formato do ficheiro não é suportado. Por favor, comprima e envie",
+
+
+    "vis_1": "conexão de rede anormal,",
+    "vis_2": "clique para atualizar",
+    "vis_3": "Verifique sua rede",
+    "vis_16": "arquivo aberto arquivo com falha", "vis_19": "Você tem ",
+    "vis_20": "mensagens não lidas", "vis_21": "As seguintes são mensagens não lidas",
+    "vis_22": "ID da empresa não inicializado", "vis_24": "falar muito curto",
+    "vis_25": "Por favor, ligue a permissão de microfone", "vis_26": "insira o texto aqui",
+    "vis_34": "Gênero sexual", "vis_35": "casado ou não", "vis_36": "idade", "vis_37": "Aniversário",
+    "vis_39": "O atendimento ao cliente convida você a avaliar",
+    "vis_41": "Nenhuma configuração de janela de diálogo",
+    "vis_42": "serviço não está disponível", "vis_43": "A conexão de rede está anormal, verifique sua rede",
+    "vis_44": "No momento, não há nenhuma conexão de rede normal", "vis_45": "erro nenhuma mensagem encontrada",
+    "vis_47": "Por favor, entre na sessão primeiro", "vis_48": "mensagens filtradas",
+    "vis_49": "Informações do arquivo de vídeo não encontradas",
+    "vis_50": "Falha ao enviar, se deseja reenviar a mensagem", "vis_51": "Clique para baixar novamente",
+    "vis_52": "Por favor, continue a conversa antes de enviar uma mensagem",
+    "vis_53": "Insira o serviço manual antes de enviar a mensagem de localização",
+    "vis_54": "Clique para preencher", "vis_55": "Clique para fazer o download", "vis_56": "clique para abrir",
+    "vis_57": "<span class=\"red\">Falha no download</span> Baixe novamente",
+    "vis_58": "Tamanho do arquivo"
 }
 
 if(typeof module!='undefined' && module.exports){

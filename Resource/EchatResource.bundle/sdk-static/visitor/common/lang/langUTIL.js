@@ -185,7 +185,7 @@ var lanRes = {
     visitor175: '预览',
     visitor176: '最多选择9个文件',
     visitor177: '选择文件超过最大限制,最多选择9个文件！',
-    visitor178: '可上传20个附件（每个附件大小不超过${uploadFileSize}M，附件支持格式有 ${filesTip}）',
+    visitor178: '可上传20个附件（每个附件大小不超过${uploadFileSize}M）',
     visitor179: '最多选择20个文件',
     visitor180: '选择文件超过最大限制,最多选择5个文件！',
     visitor181: '上传失败',

@@ -185,7 +185,7 @@ var lanRes = {
     visitor175:'Aperçu',
     visitor176:"Sélectionnez jusqu'à 9 fichiers",
     visitor177:"Le fichier sélectionné dépasse la limite maximale,Sélectionnez jusqu'à 9 fichiers！",
-    visitor178:'20 pièces jointes peuvent être téléchargées（Chaque taille de pièce jointe ne dépasse pas${uploadFileSize}M，Les formats de prise en charge des pièces jointes sont ${filesTip}）',
+    visitor178:'20 pièces jointes peuvent être téléchargées（Chaque taille de pièce jointe ne dépasse pas${uploadFileSize}M）',
     visitor179:"Sélectionnez jusqu'à 20 fichiers",
     visitor180:"Le fichier sélectionné dépasse la limite maximale,Sélectionnez jusqu'à 5 fichiers！",
     visitor181:'échec du téléchargement',
@@ -223,7 +223,28 @@ var lanRes = {
     staffInfo:'Informations sur le service client',
     searchname: { placeholder: "nom de recherche" },
     comfirmDelChat:'Voulez-vous vraiment supprimer cette conversation ?',
-    thisUnreadMsgNum:"Il y a ${num} message non lu ci-dessous"
+    thisUnreadMsgNum:"Il y a ${num} message non lu ci-dessous",
+    upload_error: "Le format de fichier n'est pas pris en charge. Veuillez le compresser et l'envoyer.",
+
+    "vis_1": "connexion réseau anormale,",
+    "vis_2": "cliquez pour rafraichir",
+    "vis_3": "Veuillez vérifier votre réseau",
+    "vis_16": "l\'ouverture du fichier a échoué",
+    "vis_19": "vous avez", "vis_20": "message non lu", "vis_21": "Voici les messages non lus", "vis_22": "ID de l\'entreprise non initialisé",
+    "vis_24": "parler trop court", "vis_25": "Veuillez activer l\'autorisation du microphone", "vis_26": "Entrez le texte ici",
+    "vis_34": "le genre", "vis_35": "marié ou pas", "vis_36": "âge", "vis_37": "Anniversaire", "vis_39": "Le service client vous invite à évaluer",
+    "vis_41": "Aucune configuration de fenêtre de dialogue", "vis_42": "le service n\'est pas disponible",
+    "vis_43": "La connexion réseau est anormale, veuillez vérifier votre réseau", "vis_44": "Il n\'y a actuellement aucune connexion réseau normale",
+    "vis_45": "erreur aucun message trouvé", "vis_47": "Veuillez d\'abord rejoindre la session", "vis_48": "messages filtrés",
+    "vis_49": "Informations sur le fichier vidéo introuvables", "vis_50": "Échec de l\'envoi, s\'il faut renvoyer le message",
+    "vis_51": "Cliquez pour télécharger à nouveau", "vis_52": "Veuillez poursuivre la conversation avant d\'envoyer un message",
+    "vis_53": "Veuillez entrer le service manuel avant d\'envoyer le message de localisation", "vis_54": "Cliquez pour remplir",
+    "vis_55": "cliquez pour télécharger",
+    "vis_56": "cliquez pour ouvrir",
+    "vis_57": "<span class=\"red\">Échec du téléchargement</span> Télécharger à nouveau",
+    "vis_58": "Taille du fichier"
+
+
 };
 
 if(typeof module!='undefined' && module.exports){

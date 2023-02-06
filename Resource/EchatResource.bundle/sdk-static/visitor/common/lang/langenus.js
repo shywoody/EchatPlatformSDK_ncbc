@@ -183,7 +183,7 @@ var lanRes = {
     visitor175:'Preview',
     visitor176:'Select up to 9 files',
     visitor177:'Select file exceeds maximum limit,Select up to 9 files！',
-    visitor178:'20 attachments can be uploaded（Each attachment size does not exceed${uploadFileSize}M，Attachment support formats are ${filesTip}）',
+    visitor178:'20 attachments can be uploaded（Each attachment size does not exceed${uploadFileSize}M）',
     visitor179:'Select up to 20 files',
     visitor180:'Select file exceeds maximum limit,Select up to 5 files！',
     visitor181:'upload failed',
@@ -220,8 +220,30 @@ var lanRes = {
     loaded: "Loaded",
     staffInfo:'Customer service information',
     searchname: { placeholder: "Search for name" },
-    comfirmDelChat:'Are you sure you want to delete this chat?',
-    thisUnreadMsgNum:"There is ${num} unread message below"
+    comfirmDelChat: 'Are you sure you want to delete this chat?',
+    thisUnreadMsgNum: "There is ${num} unread message below",
+    upload_error: "The file format is not supported. Please compress and send",
+
+    "vis_1": "Abnormal network connection,",
+    "vis_2": "Click to refresh",
+    "vis_3": "Please check your network",
+    "vis_16": "file open failed", "vis_19": "you have",
+    "vis_20": "unread message",
+    "vis_21": "Unread messages", 
+    "vis_22": "Company ID not initialized",
+    "vis_24": "talk too short", "vis_25": "Please turn on the microphone permission",
+    "vis_26": "enter text here", "vis_34": "gender", "vis_35": "married or not", "vis_36": "age",
+    "vis_37": "Birthday", "vis_39": "Customer service invites you to evaluate",
+    "vis_41": "No dialog window configuration", "vis_42": "service is not available",
+    "vis_43": "The network connection is abnormal, please check your network",
+    "vis_44": "There is currently no normal network connection", "vis_45": "error no message found",
+    "vis_47": "Please join the session first", "vis_48": "filtered messages", "vis_49": "Video file information not found",
+    "vis_50": "Failed to send, whether to resend the message", "vis_51": "Click to download again",
+    "vis_52": "Please continue the conversation before sending a message",
+    "vis_53": "Please enter manual service before sending location message",
+    "vis_54": "Click to fill", "vis_55": "click to download", "vis_56": "click to open",
+    "vis_57": "<span class=\"red\">Download failed</span> Download again",
+    "vis_58": "File size"
 };
 
 if(typeof module!='undefined' && module.exports){

@@ -765,7 +765,7 @@ body .limit-hide,body .hide-important{
 .echat,.sa-sli,.pre-his-icon ,
 .msg-voice,.msg-preview-progress,.site-back-icon,.msg-error,.feed-icon-sel,.menu-site-back-icon,.img-close,.msg-angle,
 .menu-more,#vjs_close,.file-menu-item i,
-.msg-leave-i,.toast-network,.file-icon,.verify-change,.file-remove,
+.msg-leave-i,.file-icon,.verify-change,.file-remove,
 .menu-item-icon,.logo-bottom,
 .pswp__button,.info-warn{
   font-family: "echat-vs" !important;
@@ -4789,6 +4789,7 @@ div .entry2-input-code{
     display: inline-block;
     font-size: 14px;
     font-style: normal;
+    font-family: auto;
 }
 .load .orderfile-progress-num::after {
     content: '';
@@ -4865,6 +4866,7 @@ div .entry2-input-code{
     line-height: 20px;
     bottom: 0;
     left: 0;
+    font-family: auto;
 }
 .orderfile-size{
     color: #ccc;

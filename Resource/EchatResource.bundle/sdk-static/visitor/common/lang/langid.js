@@ -209,7 +209,7 @@ var lanRes = {
     "visitor175": "Telusuri",
     "visitor176": "Pilih maksimum 9 file",
     "visitor177": "File yang terpilih melebihi batas maksimum, maks. 9 file",
-    "visitor178": "Dapat upload 20 file (ukuran setiap file tidak melebihi ${uploadFileSize} M, dan hanya mendukung format file ${filesTip}",
+    "visitor178": "Dapat upload 20 file (ukuran setiap file tidak melebihi ${uploadFileSize} M",
     "visitor179": "Pilih maksimum 20 file",
     "visitor180": "File yang terpilih melebihi batas maksimum, maks. 5 file",
     "visitor181": "Yah, upload gagal",
@@ -247,7 +247,27 @@ var lanRes = {
     staffInfo:'Informasi layanan pelanggan',
     searchname: { placeholder: "cari nama" },
     comfirmDelChat:'Membatalkan',
-    thisUnreadMsgNum:"Ada ${num} pesan yang belum dibaca di bawah ini"
+    thisUnreadMsgNum:"Ada ${num} pesan yang belum dibaca di bawah ini",
+    upload_error: "Format berkas tidak didukung. Silakan kompresi dan kirim",
+
+    "vis_1": "koneksi jaringan yang tidak normal,",
+    "vis_2": "klik untuk menyegarkan",
+    "vis_3": "Silakan periksa jaringan Anda",
+    "vis_16": "file terbuka gagal", "vis_19": "kamu punya", "vis_20": "pesan belum dibaca",
+    "vis_21": "Berikut ini adalah pesan yang belum dibaca", "vis_22": "ID Perusahaan tidak diinisialisasi",
+    "vis_24": "berbicara terlalu pendek", "vis_25": "Harap aktifkan izin mikrofon",
+    "vis_26": "masukkan teks di sini", "vis_34": "jenis kelamin", "vis_35": "menikah atau tidak",
+    "vis_36": "usia", "vis_37": "Hari ulang tahun", "vis_39": "Layanan pelanggan mengundang Anda untuk mengevaluasi",
+    "vis_41": "Tidak ada konfigurasi jendela dialog", "vis_42": "layanan tidak tersedia",
+    "vis_43": "Sambungan jaringan tidak normal, harap periksa jaringan Anda",
+    "vis_44": "Saat ini tidak ada koneksi jaringan normal", "vis_45": "kesalahan tidak ada pesan yang ditemukan",
+    "vis_47": "Silakan bergabung dengan sesi terlebih dahulu", "vis_48": "pesan yang disaring",
+    "vis_49": "Informasi file video tidak ditemukan", "vis_50": "Gagal mengirim, apakah akan mengirim ulang pesan",
+    "vis_51": "Klik untuk mengunduh lagi", "vis_52": "Silakan lanjutkan percakapan sebelum mengirim pesan",
+    "vis_53": "Masukkan layanan manual sebelum mengirim pesan lokasi", "vis_54": "Klik untuk mengisi",
+    "vis_55": "klik untuk mengunduh", "vis_56": "klik untuk membuka",
+    "vis_57": "<span class=\"red\">Pengunduhan gagal</span> Unduh lagi",
+    "vis_58": "Ukuran file"
 }
 
 if (typeof module != 'undefined' && module.exports) {

@@ -52,3 +52,6 @@ FOUNDATION_EXPORT const unsigned char EchatPlatformSDKVersionString[];
 
 //公司详情
 #import "EchatCompanyInfo.h"
+
+//配置
+#import "EchatConfig.h"

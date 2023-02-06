@@ -12,6 +12,10 @@
 		<data>
 		8v8C48b4t3TfzCFCSVPjG1/T7l8=
 		</data>
+		<key>Headers/EchatConfig.h</key>
+		<data>
+		1OON6v02J2N9H4Cu2YyUXUdoYik=
+		</data>
 		<key>Headers/EchatConversationManager.h</key>
 		<data>
 		tIirfFU+XGqroN4Q8csMi/qyN2s=
@@ -26,11 +30,11 @@
 		</data>
 		<key>Headers/EchatPlatformSDK.h</key>
 		<data>
-		x9Ftpsq3nHR4it4Gh43sZNjkEYo=
+		g72nnr5vR8WU+VMlzGFB0sUrYmI=
 		</data>
 		<key>Headers/EchatSDK.h</key>
 		<data>
-		vPiDB1kWbabdFZRihANzTi1/yZc=
+		GA3qMq79N9VIRYDgdxPeDN15+qc=
 		</data>
 		<key>Headers/EchatSubscribeMsgModel.h</key>
 		<data>
@@ -93,6 +97,17 @@
 			G+0NFZLgjbcEVz7qFb+cZIM6mH1OwNeN/HOUGqkC4eY=
 			</data>
 		</dict>
+		<key>Headers/EchatConfig.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1OON6v02J2N9H4Cu2YyUXUdoYik=
+			</data>
+			<key>hash2</key>
+			<data>
+			B9YKb04awfX4ioRgsDm7BSpLnDBxxJvyH+73wPmkWoM=
+			</data>
+		</dict>
 		<key>Headers/EchatConversationManager.h</key>
 		<dict>
 			<key>hash</key>
@@ -130,22 +145,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x9Ftpsq3nHR4it4Gh43sZNjkEYo=
+			g72nnr5vR8WU+VMlzGFB0sUrYmI=
 			</data>
 			<key>hash2</key>
 			<data>
-			iHmSmlCaaeTYFtKccYWPzQCCQU2saXSSL3IwexR3A8Q=
+			oB26e0OYpaMWwfFiClhVbDa329LCzShBSunOyEG4wyo=
 			</data>
 		</dict>
 		<key>Headers/EchatSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vPiDB1kWbabdFZRihANzTi1/yZc=
+			GA3qMq79N9VIRYDgdxPeDN15+qc=
 			</data>
 			<key>hash2</key>
 			<data>
-			aGcudADa0npLw+FgQ/lUpNqlhyCPMC4/TWJN4XQqbWA=
+			CmWWIjHY7oiXBmM9IzM3L1/MS4cyi3B1+3ov0LkQ+F8=
 			</data>
 		</dict>
 		<key>Headers/EchatSubscribeMsgModel.h</key>

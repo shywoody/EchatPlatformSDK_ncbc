@@ -20,6 +20,7 @@
 
 @interface EchatSDK : NSObject
 @property(nonatomic,readonly,assign) BOOL openDebug;
+@property(nonatomic,readonly,assign) BOOL sdkInitlized;
 @property(nonatomic,assign) double tm;
 
 

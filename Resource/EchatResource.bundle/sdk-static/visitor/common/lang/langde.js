@@ -183,7 +183,7 @@ var lanRes = {
     visitor175:'Vorschau',
     visitor176:'Wählen Sie bis zu 9 Dateien aus',
     visitor177:'Wählen Sie Dateien aus, die die maximale Grenze überschreiten, und wählen Sie bis zu 9 Dateien aus！',
-    visitor178:'20 Anhänge können hochgeladen werden（Jede Anhangsgröße überschreitet nicht${uploadFileSize}M，Anhangsunterstützungsformate sind ${filesTip}）',
+    visitor178:'20 Anhänge können hochgeladen werden（Jede Anhangsgröße überschreitet nicht${uploadFileSize}M）',
     visitor179:'Wählen Sie bis zu 20 Dateien aus',
     visitor180:'Wählen Sie Dateien aus, die die maximale Grenze überschreiten, und wählen Sie bis zu 5 Dateien aus！',
     visitor181:'Upload fehlgeschlagen',
@@ -221,7 +221,28 @@ var lanRes = {
     staffInfo:'Kundendienstinformationen',
     searchname: { placeholder: "Suchname" },
     comfirmDelChat:'Möchten Sie diese Konversation wirklich löschen?',
-    thisUnreadMsgNum: "Es gibt ${num} ungelesene Nachricht unten"
+    thisUnreadMsgNum: "Es gibt ${num} ungelesene Nachricht unten",
+    upload_error: "Das Dateiformat wird nicht unterstützt. Bitte komprimieren und senden",
+
+    "vis_1": "anormale Netzwerkverbindung,",
+    "vis_2": "Klicken Sie zum Aktualisieren",
+    "vis_3": "Bitte überprüfen Sie Ihr Netzwerk",
+    "vis_16": "Datei konnte nicht geöffnet werden", "vis_19": "Sie haben",
+    "vis_20": " ungelesene Nachricht",
+    "vis_21": "Die folgenden Nachrichten sind ungelesen", "vis_22": "Firmen-ID nicht initialisiert", "vis_24": "rede zu kurz",
+    "vis_25": "Bitte schalten Sie die Mikrofonberechtigung ein", "vis_26": "hier Text eingeben", "vis_34": "Geschlecht",
+    "vis_35": "verheiratet oder nicht", "vis_36": "das Alter", "vis_37": "Geburtstag",
+    "vis_39": "Der Kundendienst lädt Sie zur Bewertung ein", "vis_41": "Keine Dialogfensterkonfiguration",
+    "vis_42": "Service ist nicht verfügbar", "vis_43": "Die Netzwerkverbindung ist anormal, bitte überprüfen Sie Ihr Netzwerk",
+    "vis_44": "Es besteht derzeit keine normale Netzwerkverbindung", "vis_45": "Fehler keine Nachricht gefunden",
+    "vis_47": "Bitte nehmen Sie zuerst an der Sitzung teil", "vis_48": "gefilterte Nachrichten",
+    "vis_49": "Informationen zur Videodatei nicht gefunden", "vis_50": "Senden fehlgeschlagen, ob die Nachricht erneut gesendet werden soll",
+    "vis_51": "Klicken Sie, um es erneut herunterzuladen", "vis_52": "Bitte setzen Sie das Gespräch fort, bevor Sie eine Nachricht senden",
+    "vis_53": "Bitte geben Sie den manuellen Dienst ein, bevor Sie eine Standortnachricht senden", "vis_54": "Zum Ausfüllen anklicken",
+    "vis_55": "Klicken Sie hier zum Herunterladen", "vis_56": "zum Öffnen anklicken",
+    "vis_57": "<span class=\"red\">Download fehlgeschlagen</span> Erneut herunterladen",
+    "vis_58": "Dateigröße"
+
 };
 
 if(typeof module!='undefined' && module.exports){
