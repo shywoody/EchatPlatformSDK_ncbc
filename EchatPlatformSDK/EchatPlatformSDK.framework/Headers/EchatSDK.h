@@ -105,7 +105,7 @@
 
 /// 判断当前用户是否已经登陆会员(动态)
 /// @param uid 唯一Id
-/// @param callBack 系统登陆状态回调(状态变动也会回调,一般不做判断依据)
+/// @param callBack 系统登陆状态回调(状态变动也会回调,一般不做判断依据,需要保证metaData的正确性)
 + (void)echat_isLogin:(NSString *)uid StatusCallback:(void(^)(BOOL flag,NSString * message))callBack;
 
 
