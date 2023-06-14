@@ -169,6 +169,10 @@
 
 /// 打开隐私权限（app上架所在国家或者区域会需要禁止相册权限可以开启隐私权限,同时需要最低支持iOS11）
 + (void)openHighPrivacy;
+
+
+/// 获取SDK版本
++ (NSString *)sdkversion;
 #pragma mark -- 清理
 ///获取缓存大小
 + (double)getMemorySize;
