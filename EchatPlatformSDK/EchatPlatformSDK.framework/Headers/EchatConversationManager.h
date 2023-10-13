@@ -108,7 +108,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 关闭当前所有对话
 /// @param success 成功回调
 /// @param fail 失败回调
-+ (void)closeAllConversationSuccess:(dispatch_block_t _Nullable)success fail:(void(^)(NSString * _Nullable errorMsg))fail;
++ (void)closeAllConversationSuccess:(dispatch_block_t )success fail:(void(^)(NSString *  errorMsg))fail;
 
 @end
 

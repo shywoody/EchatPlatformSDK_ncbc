@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Echat_MsgModel.h"
 #import "EchatSubscribeMsgModel.h"
+#import "EchatUserInfo.h"
 
 
 @class Echat_accessConditions;
@@ -21,7 +22,7 @@
 @interface EchatSDK : NSObject
 @property(nonatomic,readonly,assign) BOOL openDebug;
 @property(nonatomic,readonly,assign) BOOL sdkInitlized;
-@property(nonatomic,assign) double tm;
+
 
 
 +(instancetype)share;
@@ -33,7 +34,7 @@
 /// @param appid appId
 /// @param appsecret appSecret
 /// @param companyId 公司Id
-+ (void)AppID:(NSString *)appid AppSecret:(NSString *)appsecret CompanyId:(NSString *)companyId;
++ (void)AppID:(NSString *)appid AppSecret:(NSString *)appsecret CompanyId:(NSString *)companyId DEPRECATED_MSG_ATTRIBUTE("Please use [EchatSDK startSDKWithAppID:AppSecret:serverAppId:serverEncodingKey:serverToken:companyId:serverUrl:]");
 
 
 /// 单商户初始化(私有云)
@@ -41,7 +42,7 @@
 /// @param appsecret appSecret
 /// @param companyId 公司Id
 /// @param server 私有云地址形如https://xxx.xxxxx.com
-+(void)AppID:(NSString *)appid AppSecret:(NSString *)appsecret CompanyId:(NSString *)companyId server:(NSString *)server;
++(void)AppID:(NSString *)appid AppSecret:(NSString *)appsecret CompanyId:(NSString *)companyId server:(NSString *)server DEPRECATED_MSG_ATTRIBUTE("Please use [EchatSDK startSDKWithAppID:AppSecret:serverAppId:serverEncodingKey:serverToken:companyId:serverUrl:]");
 
 //多商户初始化
 //---------------------------------------------------------------------
@@ -52,7 +53,7 @@
 /// @param platFormId 平台Id
 /// @param apiAppId APIAPPId
 /// @param apiToken APIToken
-+ (void)AppID:(NSString *)appid AppSecret:(NSString *)appsecret PlatFormId:(NSString *)platFormId APIAppId:(NSString *)apiAppId APIToken:(NSString *)apiToken;
++ (void)AppID:(NSString *)appid AppSecret:(NSString *)appsecret PlatFormId:(NSString *)platFormId APIAppId:(NSString *)apiAppId APIToken:(NSString *)apiToken DEPRECATED_MSG_ATTRIBUTE("Please use [EchatSDK startSDKWithAppID:AppSecret:serverAppId:serverEncodingKey:serverToken:companyId:serverUrl:]");
 
 /// 多商户平台接入(私有云)
 /// @param appid appId
@@ -61,7 +62,39 @@
 /// @param apiAppId APIAPPId
 /// @param apiToken APIToken
 /// @param server 私有云地址形如https://e.echatsoft.com
-+ (void)AppID:(NSString *)appid AppSecret:(NSString *)appsecret PlatFormId:(NSString *)platFormId APIAppId:(NSString *)apiAppId APIToken:(NSString *)apiToken server:(NSString *)server;
++ (void)AppID:(NSString *)appid AppSecret:(NSString *)appsecret PlatFormId:(NSString *)platFormId APIAppId:(NSString *)apiAppId APIToken:(NSString *)apiToken server:(NSString *)server DEPRECATED_MSG_ATTRIBUTE("Please use [EchatSDK startSDKWithAppID:AppSecret:serverAppId:serverEncodingKey:serverToken:companyId:serverUrl:]");
+
+
+/// 新初始化接口
+/// @param appid appId
+/// @param appsecret appSecret
+/// @param serverAppId API接入APPID
+/// @param serverEncodingKey 消息加密Key
+/// @param serverToken API接入Token
+/// @param companyId 公司Id, 如果是多商户接入则写入平台公司Id，如果是单商户接入则写入公司Id
++ (void)startSDKWithAppID:(NSString *)appid
+    AppSecret:(NSString *)appsecret
+  serverAppId:(NSString *)serverAppId
+serverEncodingKey:(NSString *)serverEncodingKey
+  serverToken:(NSString *)serverToken
+    companyId:(NSString *)companyId;
+
+
+/// 新初始化接口(带服务器地址)
+/// @param appid appId
+/// @param appsecret appSecret
+/// @param serverAppId API接入APPID
+/// @param serverEncodingKey 消息加密Key
+/// @param serverToken API接入Token
+/// @param companyId 公司Id, 如果是多商户接入则写入平台公司Id，如果是单商户接入则写入公司Id
+/// @param serverUrl 私有云服务器地址，形如https://xxx.xxxx.com
++ (void)startSDKWithAppID:(NSString *)appid
+    AppSecret:(NSString *)appsecret
+  serverAppId:(NSString *)serverAppId
+serverEncodingKey:(NSString *)serverEncodingKey
+  serverToken:(NSString *)serverToken
+    companyId:(NSString *)companyId
+    serverUrl:(NSString *)serverUrl;
 
 #pragma mark -- 对外接口
 
@@ -115,6 +148,13 @@
 /// @param complete 成功回调
 /// @param fail 失败回调
 + (void)echat_updateMetaData:(NSString *)metaDataString UId:(NSString *)uid Success:(dispatch_block_t)complete fail:(void(^)(NSString *errorMessage))fail;
+
+
+/// 设置会员信息
++ (void)setUserInfo:(EchatUserInfo *)userInfo;
+
+///清除会员信息
++ (void)clearUserInfo;
 
 
 #pragma mark -- 对话相关
@@ -174,6 +214,7 @@
 /// 获取SDK版本
 + (NSString *)sdkversion;
 #pragma mark -- 清理
+
 ///获取缓存大小
 + (double)getMemorySize;
 

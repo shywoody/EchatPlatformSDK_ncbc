@@ -237,7 +237,10 @@ var lanRes = {
     "vis_53": "请进入人工服务后再发送位置消息", "vis_54": "点击填写", "vis_55": "点击下载",
     "vis_56": "点击打开",
     "vis_57": "<span class=\"red\">下载失败</span>重新下载",
-    "vis_58": "文件大小"
+    "vis_58": "文件大小",
+    "vis_59": "通信超时，请重试。",
+    "vis_60": "重试",
+    "vis_61": "加载失败",
 };
 
 if(typeof module!='undefined' && module.exports){

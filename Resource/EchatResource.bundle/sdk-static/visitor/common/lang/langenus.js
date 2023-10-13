@@ -243,7 +243,10 @@ var lanRes = {
     "vis_53": "Please enter manual service before sending location message",
     "vis_54": "Click to fill", "vis_55": "click to download", "vis_56": "click to open",
     "vis_57": "<span class=\"red\">Download failed</span> Download again",
-    "vis_58": "File size"
+    "vis_58": "File size",
+    "vis_59": "Communication timeout, please try again.",
+    "vis_60": "Retry",
+    "vis_61": "Load Fail",
 };
 
 if(typeof module!='undefined' && module.exports){

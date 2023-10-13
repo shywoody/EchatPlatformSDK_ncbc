@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/EchatConversationManager.h</key>
 		<data>
-		tIirfFU+XGqroN4Q8csMi/qyN2s=
+		YRvPon/64mZva/rIduVIJMFnLCA=
 		</data>
 		<key>Headers/EchatImageModel.h</key>
 		<data>
@@ -30,15 +30,19 @@
 		</data>
 		<key>Headers/EchatPlatformSDK.h</key>
 		<data>
-		g72nnr5vR8WU+VMlzGFB0sUrYmI=
+		CIW9dQG9gozYX5mTA6sZER4q+84=
 		</data>
 		<key>Headers/EchatSDK.h</key>
 		<data>
-		VCAaxVADba7YPIkuXQJEzVF3/A4=
+		pZZrzwl+moomzBSc4JNrfuQbQnk=
 		</data>
 		<key>Headers/EchatSubscribeMsgModel.h</key>
 		<data>
 		8fxAJpCCRQXDTQNHJVDJHdhQMug=
+		</data>
+		<key>Headers/EchatUserInfo.h</key>
+		<data>
+		pdMawWqjPgAi6FKeAoDCinKkRm4=
 		</data>
 		<key>Headers/EchatVideoModel.h</key>
 		<data>
@@ -62,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KzkIr8lPCNMVAx+q1z6doPh7oVA=
+		tZP7/9QV7DEld6epvCYfE+ajEGI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,11 +116,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tIirfFU+XGqroN4Q8csMi/qyN2s=
+			YRvPon/64mZva/rIduVIJMFnLCA=
 			</data>
 			<key>hash2</key>
 			<data>
-			+Gr1+A3vq4XqGSsOAsFRNwAOsP1QRW6RrQOooTePTHw=
+			SM6nng1TyYvCpaay09xAbhw6XZ3iLYl63sipTozay5Q=
 			</data>
 		</dict>
 		<key>Headers/EchatImageModel.h</key>
@@ -145,22 +149,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g72nnr5vR8WU+VMlzGFB0sUrYmI=
+			CIW9dQG9gozYX5mTA6sZER4q+84=
 			</data>
 			<key>hash2</key>
 			<data>
-			oB26e0OYpaMWwfFiClhVbDa329LCzShBSunOyEG4wyo=
+			LA3ae/N2wcYMr+CimpPCp3mH92D1XjZykwEnZmcqZoY=
 			</data>
 		</dict>
 		<key>Headers/EchatSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VCAaxVADba7YPIkuXQJEzVF3/A4=
+			pZZrzwl+moomzBSc4JNrfuQbQnk=
 			</data>
 			<key>hash2</key>
 			<data>
-			T/JR4FB6Vw/Cb2sMLcZ8+siVA0aNVDOj5UNGvEj/q4E=
+			aHe3xQ2Hl8pUZXycASJ3/6HSzoBkKurUP3SMq7oeMZk=
 			</data>
 		</dict>
 		<key>Headers/EchatSubscribeMsgModel.h</key>
@@ -172,6 +176,17 @@
 			<key>hash2</key>
 			<data>
 			8LsK9l0wu+fTeTT9/SB8GUAGlpBUSmS01nKgXA1lOK8=
+			</data>
+		</dict>
+		<key>Headers/EchatUserInfo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pdMawWqjPgAi6FKeAoDCinKkRm4=
+			</data>
+			<key>hash2</key>
+			<data>
+			FKzJ1bijCkyBP0LZZKwDEb2fXliiC+NeUMPMDrjGzus=
 			</data>
 		</dict>
 		<key>Headers/EchatVideoModel.h</key>

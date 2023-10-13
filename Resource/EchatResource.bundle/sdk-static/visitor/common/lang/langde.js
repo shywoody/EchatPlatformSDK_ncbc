@@ -241,7 +241,11 @@ var lanRes = {
     "vis_53": "Bitte geben Sie den manuellen Dienst ein, bevor Sie eine Standortnachricht senden", "vis_54": "Zum Ausfüllen anklicken",
     "vis_55": "Klicken Sie hier zum Herunterladen", "vis_56": "zum Öffnen anklicken",
     "vis_57": "<span class=\"red\">Download fehlgeschlagen</span> Erneut herunterladen",
-    "vis_58": "Dateigröße"
+    "vis_58": "Dateigröße",
+    "vis_59": "Kommunikations-Timeout, bitte versuchen Sie es erneut.",
+    "vis_60": "Wiederholen",
+    "vis_61": "Laden fehlgeschlagen",
+    
 
 };
 

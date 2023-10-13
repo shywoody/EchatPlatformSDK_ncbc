@@ -240,7 +240,10 @@ var lanRes = {
     "vis_53": "Insira o serviço manual antes de enviar a mensagem de localização",
     "vis_54": "Clique para preencher", "vis_55": "Clique para fazer o download", "vis_56": "clique para abrir",
     "vis_57": "<span class=\"red\">Falha no download</span> Baixe novamente",
-    "vis_58": "Tamanho do arquivo"
+    "vis_58": "Tamanho do arquivo",
+    "vis_59": "Tempo limite de comunicação, tente novamente.",
+    "vis_60": "tentar novamente",
+    "vis_61": "O carregamento falhou",
 }
 
 if(typeof module!='undefined' && module.exports){

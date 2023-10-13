@@ -242,7 +242,11 @@ var lanRes = {
     "vis_55": "cliquez pour télécharger",
     "vis_56": "cliquez pour ouvrir",
     "vis_57": "<span class=\"red\">Échec du téléchargement</span> Télécharger à nouveau",
-    "vis_58": "Taille du fichier"
+    "vis_58": "Taille du fichier",
+    "vis_59": "Délai de communication expiré, Veuillez réessayer.",
+    "vis_60": "Essayez à nouveau",
+    "vis_61": "Chargement échoué",
+    
 
 
 };

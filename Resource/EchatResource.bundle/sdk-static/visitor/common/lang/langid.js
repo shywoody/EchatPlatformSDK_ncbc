@@ -267,7 +267,10 @@ var lanRes = {
     "vis_53": "Masukkan layanan manual sebelum mengirim pesan lokasi", "vis_54": "Klik untuk mengisi",
     "vis_55": "klik untuk mengunduh", "vis_56": "klik untuk membuka",
     "vis_57": "<span class=\"red\">Pengunduhan gagal</span> Unduh lagi",
-    "vis_58": "Ukuran file"
+    "vis_58": "Ukuran file",
+    "vis_59": "Waktu komunikasi habis, tolong coba lagi.",
+    "vis_60": "Essayez à nouveau",
+    "vis_61": "Memuatkan gagal",
 }
 
 if (typeof module != 'undefined' && module.exports) {
