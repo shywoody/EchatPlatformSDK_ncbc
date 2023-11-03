@@ -153,6 +153,9 @@ serverEncodingKey:(NSString *)serverEncodingKey
 /// 设置会员信息
 + (void)setUserInfo:(EchatUserInfo *)userInfo;
 
+/// 获取会员信息
++ (EchatUserInfo *)getUserInfo;
+
 ///清除会员信息
 + (void)clearUserInfo;
 
