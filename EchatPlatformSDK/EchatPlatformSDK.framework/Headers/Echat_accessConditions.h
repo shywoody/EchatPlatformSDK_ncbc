@@ -14,6 +14,12 @@
 
 @interface Echat_accessConditions : NSObject<NSCoding>
 
+/* 当是单商户接入时,shopId为单商户companyId
+ * 当为多商户时候shopId为每个不同的商户的不同companyId
+ * 必填参数
+ */
+@property (nonatomic, assign) NSInteger shopId;
+
 ///自定义扩展参数
 @property (nonatomic, copy) NSString  * myData;
 
