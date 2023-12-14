@@ -3556,6 +3556,24 @@ body .height0{
     animation: voiceSmall 1s infinite linear;
 }
 .anglebgwhite .msg-angle{ color: #fff;}
+@keyframes voiceSmall {
+    0% {
+        text-indent: 0px;
+        left:0;
+    }
+    20% {
+        text-indent: 14px;
+        left:-14px;
+    }
+    60% {
+        text-indent: 9px;
+        left:-9px;
+    }
+    100%{
+        left:0;
+        text-indent: 0px;
+    }
+}
 
 .msg-voice-info{
     position: absolute;
@@ -3710,6 +3728,106 @@ body .height0{
     z-index: -1;
     text-shadow: 1px 1px rgba(30,30,30,0.1);
 }
+
+
+/**----流式输入开始*/
+.stream-wrap{
+    min-width: 56px;
+    min-height: 20px;
+}
+.stream-msg-stop{
+    position: absolute;
+    left: 0px;
+    bottom: -24px;
+    color: #888;
+    font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.stream-enter-stop{
+    width: 40px;
+    text-align: center;
+    background: transparent;
+    font-size: 0;
+
+}
+.stream-enter-stop::after{
+    content:'\e6de';
+    font-size: 20px;
+}
+.stream-msg-error,
+.stream-msg-interrupt{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    right: -30px;
+    top: 50%;
+    margin-top: -11px;
+    font-size: 0;
+}
+.stream-msg-error::after{
+    content:'\e7a5';
+    color: red;
+    font-size: 20px;
+}
+.stream-msg-interrupt::after{
+    content:'\e6de';
+    color: #b9ddff;
+    font-size: 20px;
+}
+
+/*加载中动画 */
+@keyframes jump {
+    0% {
+        transform: translateY(0px);
+    }
+
+    33% {
+        transform: translateY(8px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+.circle-1 {
+    margin-left: 8px;
+    animation: jump 2s ease infinite;
+}
+
+.circle-2 {
+    animation: jump 2s .6s ease infinite;
+}
+
+.circle-3 {
+    animation: jump 2s 1.2s ease infinite;
+}
+
+.circle-item-wrap {
+    font-size:0;
+    line-height: 1;
+    height: 22px;
+}
+
+.circle-item {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.enter-sel .circle-item-wrap{
+    padding-left: 12px;
+    padding-right: 10px;
+}
+.enter-sel.hide-other #enter_btn,
+.enter-sel.hide-other #enter_sel {
+    display: none;
+}
+/**-----流式输入结束*/
 
 /*输入框和工具栏*/
 .footer {
@@ -4126,7 +4244,8 @@ body .height0{
     margin-top:-73px;
     z-index: 99999;
     width:146px;
-    height:146px;
+    min-height: 140px;
+    padding-bottom: 6px;
     background: rgba(0,0,0,0.6);
     color:#fff;
     font-size: 1.2rem;
