@@ -223,6 +223,8 @@ var lanRes = {
     comfirmDelChat: 'Are you sure you want to delete this chat?',
     thisUnreadMsgNum: "There is ${num} unread message below",
     upload_error: "The file format is not supported. Please compress and send",
+    stopAnswer: "Stop answering",
+    blockAnswer: "The answer is being generated, please wait...",
 
     "vis_1": "Abnormal network connection,",
     "vis_2": "Click to refresh",

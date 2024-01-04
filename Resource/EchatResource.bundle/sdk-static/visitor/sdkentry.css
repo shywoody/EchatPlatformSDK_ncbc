@@ -3739,10 +3739,14 @@ body .height0{
     position: absolute;
     left: 0px;
     bottom: -24px;
+    z-index: 1;
     color: #888;
     font-size: 12px;
     cursor: pointer;
     white-space: nowrap;
+    height: 36px;
+    line-height: 56px;
+    overflow: hidden;
 }
 .stream-enter-stop{
     width: 40px;
@@ -3773,7 +3777,7 @@ body .height0{
 }
 .stream-msg-interrupt::after{
     content:'\e6de';
-    color: #b9ddff;
+    color: #1890ff;
     font-size: 20px;
 }
 

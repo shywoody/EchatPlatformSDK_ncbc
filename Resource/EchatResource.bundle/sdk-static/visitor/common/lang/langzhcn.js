@@ -223,6 +223,8 @@ var lanRes = {
     comfirmDelChat:'您确定删除该对话吗？',
     thisUnreadMsgNum: '以下有${num}条未读消息',
     upload_error: "文件格式不支持，请压缩后发送",
+    stopAnswer: "停止回答",
+    blockAnswer: "答案生成中，请稍等...",
 
     "vis_1": "网络连接异常，",
     "vis_2": "点击刷新",

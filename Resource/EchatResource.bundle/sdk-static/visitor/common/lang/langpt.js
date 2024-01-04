@@ -219,6 +219,8 @@ var lanRes = {
     comfirmDelChat:'Tem certeza de que deseja excluir esta conversa?',
     thisUnreadMsgNum:"Há ${num} mensagem não lida abaixo",
     upload_error: "O formato do ficheiro não é suportado. Por favor, comprima e envie",
+    stopAnswer: "Pare de responder",
+    blockAnswer: "A resposta está sendo gerada, aguarde...",
 
 
     "vis_1": "conexão de rede anormal,",

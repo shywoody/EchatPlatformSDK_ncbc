@@ -223,6 +223,8 @@ var lanRes = {
     comfirmDelChat:'Möchten Sie diese Konversation wirklich löschen?',
     thisUnreadMsgNum: "Es gibt ${num} ungelesene Nachricht unten",
     upload_error: "Das Dateiformat wird nicht unterstützt. Bitte komprimieren und senden",
+    stopAnswer: "Hören Sie auf zu antworten",
+    blockAnswer: "Die Antwort wird generiert, bitte warten...",
 
     "vis_1": "anormale Netzwerkverbindung,",
     "vis_2": "Klicken Sie zum Aktualisieren",

@@ -221,6 +221,8 @@ var lanRes = {
     comfirmDelChat:'이 대화를 삭제하시겠습니까?',
     thisUnreadMsgNum:"아래에 읽지 않은 메시지가 ${num}개 있습니다.",
     upload_error: "파일 형식이 지원되지 않습니다. 압축해서 보내주십시오.",
+    stopAnswer: "Pare de responder",
+    blockAnswer: "A resposta está sendo gerada, aguarde...",
 
     "vis_1": "비정상적인 네트워크 연결，",
     "vis_2": "새로 고침하려면 클릭",

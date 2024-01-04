@@ -225,6 +225,8 @@ var lanRes = {
     comfirmDelChat:'Voulez-vous vraiment supprimer cette conversation ?',
     thisUnreadMsgNum:"Il y a ${num} message non lu ci-dessous",
     upload_error: "Le format de fichier n'est pas pris en charge. Veuillez le compresser et l'envoyer.",
+    stopAnswer: "Arrête de répondre",
+    blockAnswer: "La réponse est en cours de génération, veuillez patienter...",
 
     "vis_1": "connexion réseau anormale,",
     "vis_2": "cliquez pour rafraichir",

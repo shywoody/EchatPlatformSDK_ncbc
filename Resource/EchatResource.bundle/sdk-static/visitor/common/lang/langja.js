@@ -223,6 +223,8 @@ var lanRes = {
     comfirmDelChat:'この会話を削除してもよろしいですか？',
     thisUnreadMsgNum:"以下に未読メッセージが${num}つあります",
     upload_error: "ファイル形式はサポートされていません。圧縮して送信してください",
+    stopAnswer: "答えるのをやめる",
+    blockAnswer: "回答を生成中です。お待​​ちください...",
 
     "vis_1": "異常なネットワーク接続，",
     "vis_2": "クリックして更新",

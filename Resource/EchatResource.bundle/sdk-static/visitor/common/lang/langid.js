@@ -249,6 +249,8 @@ var lanRes = {
     comfirmDelChat:'Membatalkan',
     thisUnreadMsgNum:"Ada ${num} pesan yang belum dibaca di bawah ini",
     upload_error: "Format berkas tidak didukung. Silakan kompresi dan kirim",
+    stopAnswer: "Berhenti menjawab",
+    blockAnswer: "Jawaban sedang dibuat, harap tunggu...",
 
     "vis_1": "koneksi jaringan yang tidak normal,",
     "vis_2": "klik untuk menyegarkan",
