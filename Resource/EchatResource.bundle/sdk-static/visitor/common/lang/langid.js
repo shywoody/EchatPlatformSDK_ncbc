@@ -249,8 +249,6 @@ var lanRes = {
     comfirmDelChat:'Membatalkan',
     thisUnreadMsgNum:"Ada ${num} pesan yang belum dibaca di bawah ini",
     upload_error: "Format berkas tidak didukung. Silakan kompresi dan kirim",
-    stopAnswer: "Berhenti menjawab",
-    blockAnswer: "Jawaban sedang dibuat, harap tunggu...",
 
     "vis_1": "koneksi jaringan yang tidak normal,",
     "vis_2": "klik untuk menyegarkan",
@@ -269,10 +267,7 @@ var lanRes = {
     "vis_53": "Masukkan layanan manual sebelum mengirim pesan lokasi", "vis_54": "Klik untuk mengisi",
     "vis_55": "klik untuk mengunduh", "vis_56": "klik untuk membuka",
     "vis_57": "<span class=\"red\">Pengunduhan gagal</span> Unduh lagi",
-    "vis_58": "Ukuran file",
-    "vis_59": "Waktu komunikasi habis, tolong coba lagi.",
-    "vis_60": "Essayez à nouveau",
-    "vis_61": "Memuatkan gagal",
+    "vis_58": "Ukuran file"
 }
 
 if (typeof module != 'undefined' && module.exports) {

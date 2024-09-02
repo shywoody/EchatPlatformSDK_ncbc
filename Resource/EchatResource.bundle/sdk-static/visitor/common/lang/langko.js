@@ -221,8 +221,6 @@ var lanRes = {
     comfirmDelChat:'이 대화를 삭제하시겠습니까?',
     thisUnreadMsgNum:"아래에 읽지 않은 메시지가 ${num}개 있습니다.",
     upload_error: "파일 형식이 지원되지 않습니다. 압축해서 보내주십시오.",
-    stopAnswer: "Pare de responder",
-    blockAnswer: "A resposta está sendo gerada, aguarde...",
 
     "vis_1": "비정상적인 네트워크 연결，",
     "vis_2": "새로 고침하려면 클릭",
@@ -238,10 +236,7 @@ var lanRes = {
     "vis_53": "위치 메시지를 보내기 전에 수동 서비스를 입력하십시오", "vis_54": "클릭하여 채우세요",
     "vis_55": "다운로드하려면 클릭", "vis_56": "열려면 클릭",
     "vis_57": "<span class=\"red\">다운로드 실패</span> 다시 다운로드",
-    "vis_58": "파일 크기",
-    "vis_59": "통신 시간이 초과되었습니다. 다시 시도하십시오.",
-    "vis_60": "다시 시도",
-    "vis_61": "로드 실패",
+    "vis_58": "파일 크기"
 };
 
 if(typeof module!='undefined' && module.exports){

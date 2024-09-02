@@ -142,10 +142,3 @@ body .sub-selected{
     color:#ccc;
 }
 
-/**----流式输入开始*/
-.msg-item .circle-item{
-    /* bg10 color */
-    background-color:#fff;
-    margin-top: 3px;
-}
-/**-----流式输入结束*/

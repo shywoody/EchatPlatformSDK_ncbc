@@ -223,8 +223,6 @@ var lanRes = {
     comfirmDelChat: 'Are you sure you want to delete this chat?',
     thisUnreadMsgNum: "There is ${num} unread message below",
     upload_error: "The file format is not supported. Please compress and send",
-    stopAnswer: "Stop answering",
-    blockAnswer: "The answer is being generated, please wait...",
 
     "vis_1": "Abnormal network connection,",
     "vis_2": "Click to refresh",
@@ -245,10 +243,7 @@ var lanRes = {
     "vis_53": "Please enter manual service before sending location message",
     "vis_54": "Click to fill", "vis_55": "click to download", "vis_56": "click to open",
     "vis_57": "<span class=\"red\">Download failed</span> Download again",
-    "vis_58": "File size",
-    "vis_59": "Communication timeout, please try again.",
-    "vis_60": "Retry",
-    "vis_61": "Load Fail",
+    "vis_58": "File size"
 };
 
 if(typeof module!='undefined' && module.exports){

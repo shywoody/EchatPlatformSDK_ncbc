@@ -225,8 +225,6 @@ var lanRes = {
     comfirmDelChat:'Voulez-vous vraiment supprimer cette conversation ?',
     thisUnreadMsgNum:"Il y a ${num} message non lu ci-dessous",
     upload_error: "Le format de fichier n'est pas pris en charge. Veuillez le compresser et l'envoyer.",
-    stopAnswer: "Arrête de répondre",
-    blockAnswer: "La réponse est en cours de génération, veuillez patienter...",
 
     "vis_1": "connexion réseau anormale,",
     "vis_2": "cliquez pour rafraichir",
@@ -244,11 +242,7 @@ var lanRes = {
     "vis_55": "cliquez pour télécharger",
     "vis_56": "cliquez pour ouvrir",
     "vis_57": "<span class=\"red\">Échec du téléchargement</span> Télécharger à nouveau",
-    "vis_58": "Taille du fichier",
-    "vis_59": "Délai de communication expiré, Veuillez réessayer.",
-    "vis_60": "Essayez à nouveau",
-    "vis_61": "Chargement échoué",
-    
+    "vis_58": "Taille du fichier"
 
 
 };

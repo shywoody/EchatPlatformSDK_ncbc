@@ -67,5 +67,14 @@
  */
 @property (nonatomic,strong) NSDictionary * fm;
 
+/// 上传日志目录形如: /A/B/Logs
+/*
+ * [切记]--> 此目录最好保存了相对路径,每次创建或者设置的时候能通过[NSSearchPathForDirectoriesInDomains + 相对路径]重新组合成新的全路径
+ * 因为如果持久化了全路径再传递,每次打开通过[NSSearchPathForDirectoriesInDomains]找到的路径都可能发生变化
+ * 在打开对话控制器[EchatChatController]的时候通过[EchatChatController chatWithCondition:condition] 设置进来
+ */
+@property (nonatomic,copy) NSString * logPath;
+
+
 @end
 

@@ -219,8 +219,6 @@ var lanRes = {
     comfirmDelChat:'Tem certeza de que deseja excluir esta conversa?',
     thisUnreadMsgNum:"Há ${num} mensagem não lida abaixo",
     upload_error: "O formato do ficheiro não é suportado. Por favor, comprima e envie",
-    stopAnswer: "Pare de responder",
-    blockAnswer: "A resposta está sendo gerada, aguarde...",
 
 
     "vis_1": "conexão de rede anormal,",
@@ -242,10 +240,7 @@ var lanRes = {
     "vis_53": "Insira o serviço manual antes de enviar a mensagem de localização",
     "vis_54": "Clique para preencher", "vis_55": "Clique para fazer o download", "vis_56": "clique para abrir",
     "vis_57": "<span class=\"red\">Falha no download</span> Baixe novamente",
-    "vis_58": "Tamanho do arquivo",
-    "vis_59": "Tempo limite de comunicação, tente novamente.",
-    "vis_60": "tentar novamente",
-    "vis_61": "O carregamento falhou",
+    "vis_58": "Tamanho do arquivo"
 }
 
 if(typeof module!='undefined' && module.exports){
