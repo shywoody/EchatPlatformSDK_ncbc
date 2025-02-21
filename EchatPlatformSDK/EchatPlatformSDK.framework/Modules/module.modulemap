@@ -1,6 +1,6 @@
 framework module EchatPlatformSDK {
   umbrella header "EchatPlatformSDK.h"
-
   export *
+
   module * { export * }
 }

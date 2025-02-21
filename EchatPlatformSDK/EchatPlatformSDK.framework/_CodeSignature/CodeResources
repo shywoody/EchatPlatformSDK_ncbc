@@ -66,11 +66,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vJEwJYqgGWghqpjF9MNomB4tWB4=
+		9WHDDikolh90AfvIDa5KkkwkEbU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		3CmjO0RaUcTQRB9kXhFomWlvVik=
+		lJrx07bmd/TpElabBgFWnoXhcYI=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		235XL6yFGdrfhTQgCehXKhvOfy8=
+		</data>
+		<key>SDWebImage.xcprivacy</key>
+		<data>
+		PFHYbs0V3eUFDWQyYQcwEetuqEk=
 		</data>
 		<key>echat_localRule.json</key>
 		<data>
@@ -248,11 +256,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3CmjO0RaUcTQRB9kXhFomWlvVik=
+			lJrx07bmd/TpElabBgFWnoXhcYI=
 			</data>
 			<key>hash2</key>
 			<data>
-			A1nE2IJmRyIKnPOy0JGRLhbnFf4faQjxvEzdjdxstSw=
+			3FMzz2VHSZFOhp3iWaokZYQR12z68JGeWtEdJM/JNQ0=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			235XL6yFGdrfhTQgCehXKhvOfy8=
+			</data>
+			<key>hash2</key>
+			<data>
+			oCWonXU/X5q0wh5lwtdb91VLf/R9ieX4mmOH0h0KXzE=
+			</data>
+		</dict>
+		<key>SDWebImage.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PFHYbs0V3eUFDWQyYQcwEetuqEk=
+			</data>
+			<key>hash2</key>
+			<data>
+			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
 			</data>
 		</dict>
 		<key>echat_localRule.json</key>
