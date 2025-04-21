@@ -25,6 +25,7 @@ var lanRes = {
     nextPic:"&nbsp;換一張&nbsp;",
     okay:"確定",
     cancel:"取消",
+    cancel2:"取消",
     send:"發送",
     close:"關閉",
     waitting:"請稍等...",
@@ -50,7 +51,7 @@ var lanRes = {
     invildQQ:"請輸入正確的QQ號碼",
     invildDate:"請輸入2015-12-12格式的日期",
     inputPlease:"請填寫${inputName}",
-    inputPleaseJa2:'請填寫${inputName}',
+    inputPleaseJa2:'請選擇${inputName}',
     chatContinued:"您已繼續對話",
     offlineForbidTip:"當前客服不在線，沒有啓用留言功能，請到客服上班時間咨詢。",
     leaveWordContent:"留言內容",
@@ -189,7 +190,7 @@ var lanRes = {
     visitor181:'上傳失敗',
     visitor182:'刪除成功',
     visitor183:'工單已提交成功',
-    visitor184:'微信掃碼關注，查看工單實時進度',
+    visitor184:'感謝您的迴響，我們將通過電子郵件通知您最新進展情况。',
     visitor185:"相同文件請勿上傳多次！",
     visitor186:"提交新工單",
     visitor187:"當前客服不在線,您是否需要繼續提交工單？",
@@ -223,8 +224,10 @@ var lanRes = {
     comfirmDelChat:'您確定刪除該對話嗎？',
     thisUnreadMsgNum: '以下有${num}條未讀消息',
     upload_error: "檔案格式不支持，請壓縮後發送",
-
-    
+    stopAnswer: "停止回答",
+    blockAnswer: "回答生成中，請稍等...",
+    pleaseSelect: "請選擇",
+    back: '返回',
     "vis_1": "網絡連接異常，",
     "vis_2": "點擊刷新",
     "vis_3": "請檢查您的網絡",
@@ -238,8 +241,17 @@ var lanRes = {
     "vis_51": "點擊重新下載", "vis_52": "請繼續對話後再發送消息", "vis_53": "請進入人工服務後再發送位置消息",
     "vis_54": "點擊填寫", "vis_55": "點擊下載", "vis_56": "點擊打開",
     "vis_57": "<span class=\"red\">下載失敗</span>重新下載",
-    "vis_58": "文件大小"
-
+    "vis_58": "文件大小",
+    "vis_59": "通信超時，請重試。",
+    "vis_60": "重試",
+    "vis_61": "加載失敗",
+    "vis_62": "權限使用說明",
+    "vis_63": "當前申請存儲權限，用於客服對話過程中，訪客選擇圖片、視頻等文件發送給客服，溝通與解決問題，不授權權限，不影響其他功能使用。",
+    "vis_64": "前往授權",
+    "vis_65": "前往應用權限設置界面，打開存儲權限，以便在圖庫選擇圖片和視頻，保存文件到本地等",
+    "vis_66": "日誌",
+    "vis_67": "點擊上傳",
+    "vis_68": "上傳失敗，點擊查看",
 };
 
 if(typeof module!='undefined' && module.exports){

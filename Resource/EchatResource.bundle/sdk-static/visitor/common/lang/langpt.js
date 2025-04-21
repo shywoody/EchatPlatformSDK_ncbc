@@ -25,6 +25,7 @@ var lanRes = {
     "nextPic": "&nbsp;Refresh&nbsp;",
     "okay": "Certo",
     "cancel": "Cancelar",
+    "cancel2": "Cancelar",
     "send": "Enviar",
     "close": "Fechar",
     "waitting": "Por favor aguarde...",
@@ -50,7 +51,7 @@ var lanRes = {
     "invildQQ": "Por favor introduzir numero QQ válido",
     "invildDate": "Por favor introduzir data no formatio AA-MM-DD",
     "inputPlease": "Por favor preencher${inputName}",
-    "inputPleaseJa2": "Por favor preencher${inputName}",
+    "inputPleaseJa2": "Por favor escolha ${inputName}",
     "chatContinued": "O chat esta novamente conectado",
     "offlineForbidTip": "O serviço ao cliente está offline e as mensagens estão desativadas. Entre em contato conosco durante o horário comercial.",
     "leaveWordContent": "Conteúdo da mensagem",
@@ -185,7 +186,7 @@ var lanRes = {
     "visitor181": "Envio falhou",
     "visitor182": "Eliminado com sucesso",
     "visitor183": "O Ticket foi submetido com sucesso",
-    "visitor184": "Atenção código de verificação WeChat ， Veja o progresso em tempo real das ordens de serviço",
+    "visitor184": "Obrigado pelo seu feedback. Iremos notificá-lo sobre os últimos progressos via e-mail.",
     "visitor185": "Não carregar o mesmo arquivo multiplas vezes!",
     "visitor186": "Submeter um novo Ticket",
     "visitor187": "Presentemente o serviço de apoio ao clientel não está online, pretende continuar enviando ordens de serviço?",
@@ -219,8 +220,10 @@ var lanRes = {
     comfirmDelChat:'Tem certeza de que deseja excluir esta conversa?',
     thisUnreadMsgNum:"Há ${num} mensagem não lida abaixo",
     upload_error: "O formato do ficheiro não é suportado. Por favor, comprima e envie",
-
-
+    stopAnswer: "Pare de responder",
+    blockAnswer: "A resposta está sendo gerada, aguarde...",
+    pleaseSelect: "por favor escolha",
+    back: 'retornar',
     "vis_1": "conexão de rede anormal,",
     "vis_2": "clique para atualizar",
     "vis_3": "Verifique sua rede",
@@ -240,7 +243,17 @@ var lanRes = {
     "vis_53": "Insira o serviço manual antes de enviar a mensagem de localização",
     "vis_54": "Clique para preencher", "vis_55": "Clique para fazer o download", "vis_56": "clique para abrir",
     "vis_57": "<span class=\"red\">Falha no download</span> Baixe novamente",
-    "vis_58": "Tamanho do arquivo"
+    "vis_58": "Tamanho do arquivo",
+    "vis_59": "Tempo limite de comunicação, tente novamente.",
+    "vis_60": "tentar novamente",
+    "vis_61": "O carregamento falhou",
+    "vis_62": "Permission Usage Instructions",
+    "vis_63": "The current application is requesting storage permission for visitors to select and send images, videos, and other files to customer service during the conversation process. This is necessary for effective communication and problem-solving. Not granting this permission will not affect other functions.", 
+    "vis_64": "Go to authorization",
+    "vis_65": "Allow storage permissions in application permission settings to use images and videos in album, save file to local storage.",
+    "vis_66": "diário",
+    "vis_67": "Carregue para carregar",
+    "vis_68": "O envio falhou, carregue para ver",
 }
 
 if(typeof module!='undefined' && module.exports){

@@ -25,6 +25,7 @@ var lanRes = {
     nextPic:'&nbsp;Rafraîchir&nbsp;',
     okay:'Bien sûr',
     cancel:'Annuler',
+    cancel2:'Annuler',
     send:'Envoyer',
     close:'Fermer',
     waitting:'Attendez svp...',
@@ -50,7 +51,7 @@ var lanRes = {
     invildQQ:'Veuillez entrez un numéro QQ valide.',
     invildDate:'Veuillez écrire la date dans le format YY-MM-DD',
     inputPlease:'Complétez svp ${inputName}',
-    inputPleaseJa2:'Complétez svp ${inputName}',
+    inputPleaseJa2:'Veuillez sélectionner ${inputName}',
     chatContinued:'La conversation est de nouveau reconnecter',
     offlineForbidTip:'Le service client est déconnecté et la messagerie est désactivée.  Svp contactez-nous pendant nos heures de travail régulières.',
     leaveWordContent:'Contenu du message',
@@ -191,7 +192,7 @@ var lanRes = {
     visitor181:'échec du téléchargement',
     visitor182:'supprimé avec succès',
     visitor183:'Le ticket a été soumis avec succès',
-    visitor184:'Attention au code de numérisation WeChat，Afficher la progression en temps réel des bons de travail',
+    visitor184:'Merci pour vos commentaires et nous vous informerons par e - mail des derniers progrès.',
     visitor185:"Ne téléchargez pas le même fichier plusieurs fois！",
     visitor186:"Soumettre un nouveau ticket",
     visitor187:"Le service client actuel n'est pas en ligne, devez-vous continuer à soumettre des bons de travail？",
@@ -225,7 +226,10 @@ var lanRes = {
     comfirmDelChat:'Voulez-vous vraiment supprimer cette conversation ?',
     thisUnreadMsgNum:"Il y a ${num} message non lu ci-dessous",
     upload_error: "Le format de fichier n'est pas pris en charge. Veuillez le compresser et l'envoyer.",
-
+    stopAnswer: "Arrête de répondre",
+    blockAnswer: "La réponse est en cours de génération, veuillez patienter...",
+    pleaseSelect: "bitte auswählen",
+    back: "Retour",
     "vis_1": "connexion réseau anormale,",
     "vis_2": "cliquez pour rafraichir",
     "vis_3": "Veuillez vérifier votre réseau",
@@ -242,9 +246,17 @@ var lanRes = {
     "vis_55": "cliquez pour télécharger",
     "vis_56": "cliquez pour ouvrir",
     "vis_57": "<span class=\"red\">Échec du téléchargement</span> Télécharger à nouveau",
-    "vis_58": "Taille du fichier"
-
-
+    "vis_58": "Taille du fichier",
+    "vis_59": "Délai de communication expiré, Veuillez réessayer.",
+    "vis_60": "Essayez à nouveau",
+    "vis_61": "Chargement échoué",
+    "vis_62": "Instructions d\'utilisation des autorisations",
+    "vis_63": "L\'application actuelle demande l\'autorisation de stockage afin que les visiteurs puissent sélectionner et envoyer des images, des vidéos et d\'autres fichiers au service client lors du processus de conversation. Cela est nécessaire pour une communication efficace et la résolution de problèmes. Ne pas accorder cette autorisation n\'affectera pas les autres fonctions.", 
+    "vis_64": "Accéder à l\'autorisation",
+    "vis_65": "Autorisez les autorisations de stockage dans les paramètres d\'autorisation de l\'application pour utiliser les images et les vidéos de l\'album, enregistrer des fichiers localement.",
+    "vis_66": "Logs",
+    "vis_67": "Cliquez sur upload",
+    "vis_68": "Le téléchargement a échoué, cliquez pour voir",
 };
 
 if(typeof module!='undefined' && module.exports){
