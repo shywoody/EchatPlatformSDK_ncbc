@@ -110,8 +110,12 @@ serverEncodingKey:(NSString *)serverEncodingKey
 
 #pragma mark -- 推送
 /// 注册token
-/// @param deviceToken token
+/// @param deviceToken 上传推送证书至echat, 建立推送服务时, pushInfo为deviceTokenData
 + (void)echat_registPushInfo:(NSData *)deviceToken;
+
+///设置pushInfo
+/// @param pushInfo 通过指定服务器接收推送消息, 由开发者自行建立推送服务时,pushInfo为任意约定字符串(要求:能自行识别来自于那种设备类型)
++ (void)echat_setPushInfo:(NSString *)pushInfo;
 
 #pragma mark -- 会员信息
 /// 登陆
