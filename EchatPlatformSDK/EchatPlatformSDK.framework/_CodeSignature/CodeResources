@@ -80,10 +80,6 @@
 		<data>
 		PFHYbs0V3eUFDWQyYQcwEetuqEk=
 		</data>
-		<key>echat_localRule.json</key>
-		<data>
-		zPljicdfNKbnajLIoA/KjS9ZbS4=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -283,17 +279,6 @@
 			<key>hash2</key>
 			<data>
 			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
-			</data>
-		</dict>
-		<key>echat_localRule.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zPljicdfNKbnajLIoA/KjS9ZbS4=
-			</data>
-			<key>hash2</key>
-			<data>
-			JaZFoqPNk8qxKz64tESfzUw4VTBF76L3S9EergzGqUw=
 			</data>
 		</dict>
 	</dict>
